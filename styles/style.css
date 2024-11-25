@@ -1,0 +1,54 @@
+:root {
+    --warna-biru: rgba(39, 142, 245, 0.8);
+    --warna-putih: rgb(255,255,255);
+    --warna-abu: rgb(190, 189, 189);
+    --warna-hijau: rgb(0,175,0);
+}
+
+body {
+    background-color: var(--warna-biru);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    margin: 35px;
+    width: 450px;
+    height: 500px;
+    background: var(--warna-putih);
+
+}
+
+.gambar {
+    background-image: url('https://www.traveltalktours.com/wp-content/smush-webp/2023/12/guo-xin-goh-8juRlGCr5c-unsplash-1-768x432.jpg.webp');
+    height: 150px;
+    background-size: cover;
+}
+
+form {
+   padding: 10px 35px;
+}
+
+.input-grup input {
+    background: none;
+    border: none;
+    border-bottom:1px solid var(--warna-abu) ;
+    margin: 10px;
+    padding: 3px;
+    width: 160px;
+}
+
+button {
+    margin: 10px;
+    color: var(--warna-putih);
+    background-color: var(--warna-hijau);
+    padding: 8px 15px;
+    border-radius: 10px;
+}
